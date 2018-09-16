@@ -9,8 +9,10 @@
   "author": "Alfreod Salzillo https://github.com/alfredosalzillo",
   "license": "ISC",
   "dependencies": {
+    "console": "^0.7.2",
     "immutable": "^3.8.2",
     "rxjs": "^6.3.2",
+    "rxjs-compat": "^6.3.2",
     "three": "^0.96.0"
   },
   "devDependencies": {
