@@ -1,3 +1,6 @@
+export const create = (i, j) => [...Array(i)
+    .keys()].map(() => [...Array(j)
+    .keys()]);
 export const reduce = (matrix, callbackFn, acc = []) => (matrix || [])
     .reduce((acc, r, y) => r.reduce((acc, c, x) => callbackFn(acc, c, x, y), acc), acc);
 export const map = (matrix, callbackFn) => (matrix || [])

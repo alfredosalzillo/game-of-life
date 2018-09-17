@@ -12,6 +12,12 @@ module.exports = {
             test: /\.js?$/,
             exclude: /node_modules/,
             loader: 'babel-loader',
+            options: {
+                plugins: [
+                    '@babel/plugin-syntax-dynamic-import',
+                    '@babel/plugin-proposal-object-rest-spread',
+                ],
+            },
         }],
     },
 };
